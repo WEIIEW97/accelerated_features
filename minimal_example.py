@@ -44,6 +44,6 @@ mkpts_0, mkpts_1 = xfeat.match_xfeat(x1, x2)
 
 # Match two images with semi-dense approach -- batched mode with batch size 4
 x1 = torch.randn(4,3,480,640)
-x2 = torch.randn(4,3,480,640)
+x2 = torch.randn(4,3,480,640) 
 matches_list = xfeat.match_xfeat_star(x1, x2)
 print(matches_list[0].shape)

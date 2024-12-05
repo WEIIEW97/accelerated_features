@@ -165,3 +165,7 @@ notebooks/*
 
 **/*.ipynb
 
+build
+.idea
+.vs
+out
