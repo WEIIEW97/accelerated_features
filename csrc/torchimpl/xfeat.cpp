@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "xfeat.h"
+#include "torchimpl/xfeat.h"
 
 namespace xfeat {
   Detector::Detector(const std::string& weights_path, int top_k,
