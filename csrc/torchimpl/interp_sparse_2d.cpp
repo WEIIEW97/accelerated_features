@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "interp_sparse_2d.h"
+#include "torchimpl/interp_sparse_2d.h"
 
 namespace xfeat {
   InterpolateSparse2d::InterpolateSparse2d(const std::string& mode,

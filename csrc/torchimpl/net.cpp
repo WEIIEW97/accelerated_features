@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "net.h"
+#include "torchimpl/net.h"
 
 namespace xfeat {
   BasicLayerImpl::BasicLayerImpl(int in_channels, int out_channels,
